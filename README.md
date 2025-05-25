@@ -18,7 +18,7 @@ Sou apaixonado por tecnologia e desenvolvimento de software, com foco em criar s
 
 ## 🛠️ Em que estou trabalhando
 Atualmente, estou focado em:
-- Desenvolver projetos práticos usando **Java** e **C**.
+- Desenvolver projetos práticos usando **Java**.
 - Aprimorar minhas habilidades com **bancos de dados SQL**.
 - Criar interfaces web modernas com **HTML, CSS e JavaScript**. 
 
