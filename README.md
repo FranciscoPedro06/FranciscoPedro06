@@ -23,7 +23,7 @@ Atualmente, estou focado em:
 - Criar interfaces web modernas com **HTML, CSS e JavaScript**. 
 
 ## 📫 Como me encontrar
-- LinkedIn: [FranciscoPedro06](www.linkedin.com/in/francisco-pedro-5150492ba)
+- LinkedIn: [FranciscoPedro06](www.linkedin.com/in/francisco-pedro)
 - E-mail: pedro2006francisco@gmail.com
 
 ---
