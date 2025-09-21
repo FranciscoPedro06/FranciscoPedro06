@@ -1,18 +1,18 @@
 < dev mode: active />
 
-hi there — i'm Francisco Pedro, 18yo dev who enjoys turning coffee into code ☕
+# 👋 Hello, I'm Francisco Pedro  
 
-i build things using:
-  - ☕ java & 🧠 c for logic-heavy challenges
-  - 🧮 sql for data wrangling
-  - 🌐 js, html & css for bringing ideas to the browser
+I'm an 19-year-old developer passionate about building practical and well-structured solutions.  
 
-less into buzzwords, more into learning by doing.
+### Technologies I work with:
+- ☕ **Java** and 🧠 **C** for logic-intensive programming challenges  
+- 🧮 **SQL** and **Firebase** for data management and optimization  
+- 🌐 **JavaScript, HTML, and CSS** for web development  
 
-⌛ currently diving deeper into:
-  - backend patterns
-  - clean architecture
-  - database optimization
+### Currently focusing on:
+- Backend design patterns  
+- Clean Architecture  
+- Database optimization  
 
-always learning. always building.  
-sometimes debugging for hours because of a missing semicolon.
+Always eager to learn, improve my skills, and apply knowledge to real projects.  
+
