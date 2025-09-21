@@ -1,6 +1,7 @@
 < dev mode: active />
 
 Hello, I'm Francisco Pedro.
+
 I'm an 19-year-old developer passionate about building practical and well-structured solutions.  
 
 ### Technologies I work with:
