@@ -21,9 +21,11 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=FranciscoPedro06&label=Profile%20views&color=00D9FF&style=flat" alt="profile views" />
   &nbsp;
-  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/francisco-pedro-5150492ba/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
   &nbsp;
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:pedro2006francisco@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://www.instagram.com/p_edrolima9/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
 </div>
 
 <br/>
