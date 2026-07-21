@@ -1,9 +1,3 @@
-<!-- ============================================================= -->
-<!-- Put hero.svg inside an "assets" folder in this repo, so the    -->
-<!-- path below (./assets/hero.svg) resolves. Everything animates    -->
-<!-- natively on GitHub - no GIF, no external service needed.        -->
-<!-- ============================================================= -->
-
 <div align="center">
   <img src="./assets/hero.svg" alt="Francisco Pedro - Data Analyst & Full-Stack Developer" width="100%" />
 </div>
