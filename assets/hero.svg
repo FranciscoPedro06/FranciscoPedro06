@@ -55,12 +55,12 @@
   </g>
 
   <!-- top-right availability tag -->
-  <!-- <g font-family="'Courier New', monospace" font-size="10.5" letter-spacing="2" fill="#6E7F96">
+  <g font-family="'Courier New', monospace" font-size="10.5" letter-spacing="2" fill="#6E7F96">
     <circle cx="690" cy="36" r="3.4" fill="#3DFF9E">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
     <text x="702" y="40">OPEN TO WORK</text>
-  </g> -->
+  </g> 
 
   <!-- ================= ORBITAL 3D OBJECT ================= -->
   <g transform="translate(675 150)">
