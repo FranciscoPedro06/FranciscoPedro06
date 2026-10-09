@@ -40,4 +40,4 @@ SELECT * FROM francisco.things_i_built;
   <a href="https://github.com/FranciscoPedro06/FranciscoPedro06/issues/new?title=SELECT%20%2A%20FROM%20francisco.facts"><img src="https://img.shields.io/badge/Run_a_query_%E2%86%92-0B0E14?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBFNUZGIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iNSIgcng9IjgiIHJ5PSIzIi8%2BPHBhdGggZD0iTTQgNXYxNGMwIDEuNjYgMy41OCAzIDggM3M4LTEuMzQgOC0zVjUiLz48cGF0aCBkPSJNNCAxMmMwIDEuNjYgMy41OCAzIDggM3M4LTEuMzQgOC0zIi8%2BPC9zdmc%2B" alt="Run a query" /></a>
 </p>
 
-<sub>tables: <code>projects</code> · <code>skills</code> · <code>contact</code> · <code>facts</code> &nbsp;|&nbsp; currently: <!--currently-->debugging something that worked yesterday<!--/currently--></sub>
+<sub>tables: <code>projects</code> · <code>skills</code> · <code>contact</code> · <code>facts</code> &nbsp;|&nbsp; currently: <!--currently-->fix: accept only the integer 1 as the content schema version<!--/currently--></sub>
