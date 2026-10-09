@@ -17,8 +17,7 @@
 <br/>
 
 ```sql
-SELECT project, what_it_does
-FROM francisco.things_i_built;
+SELECT * FROM francisco.things_i_built;
 ```
 
 ```
@@ -34,4 +33,11 @@ FROM francisco.things_i_built;
 5 rows in set (0.01 sec) -- more loading...
 ```
 
-<sub>currently: debugging something that worked yesterday</sub>
+<p>
+  <b>That table is real.</b> This profile is a SQLite database, and you can query it:
+  open an issue with your SQL as the title and a bot replies with the result.
+  <br/><br/>
+  <a href="https://github.com/FranciscoPedro06/FranciscoPedro06/issues/new?title=SELECT%20%2A%20FROM%20francisco.facts"><img src="https://img.shields.io/badge/Run_a_query_%E2%86%92-0B0E14?style=flat&logo=sqlite&logoColor=00E5FF" alt="Run a query" /></a>
+</p>
+
+<sub>tables: <code>projects</code> · <code>skills</code> · <code>contact</code> · <code>facts</code> &nbsp;|&nbsp; currently: debugging something that worked yesterday</sub>

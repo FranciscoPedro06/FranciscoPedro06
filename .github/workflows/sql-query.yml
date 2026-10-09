@@ -1,0 +1,42 @@
+name: SQL Query
+
+# Answers issues whose title is a SQL query, then closes them.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  query:
+    # startsWith is case-insensitive, so "select ..." works too.
+    if: >-
+      startsWith(github.event.issue.title, 'SELECT') ||
+      startsWith(github.event.issue.title, 'WITH') ||
+      startsWith(github.event.issue.title, 'DROP') ||
+      startsWith(github.event.issue.title, 'DELETE FROM') ||
+      startsWith(github.event.issue.title, 'INSERT INTO') ||
+      startsWith(github.event.issue.title, 'TRUNCATE') ||
+      startsWith(github.event.issue.title, 'ATTACH') ||
+      startsWith(github.event.issue.title, 'PRAGMA')
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run the query
+        # The title is passed through env, never interpolated into the script.
+        env:
+          QUERY: ${{ github.event.issue.title }}
+        run: python3 -I .github/scripts/query.py > reply.md
+
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --body-file reply.md
+          gh issue close "$NUMBER" --reason completed
