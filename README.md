@@ -40,4 +40,4 @@ SELECT * FROM francisco.things_i_built;
   <a href="https://github.com/FranciscoPedro06/FranciscoPedro06/issues/new?title=SELECT%20%2A%20FROM%20francisco.facts"><img src="https://img.shields.io/badge/Run_a_query_%E2%86%92-0B0E14?style=flat&logo=sqlite&logoColor=00E5FF" alt="Run a query" /></a>
 </p>
 
-<sub>tables: <code>projects</code> · <code>skills</code> · <code>contact</code> · <code>facts</code> &nbsp;|&nbsp; currently: debugging something that worked yesterday</sub>
+<sub>tables: <code>projects</code> · <code>skills</code> · <code>contact</code> · <code>facts</code> &nbsp;|&nbsp; currently: <!--currently-->debugging something that worked yesterday<!--/currently--></sub>

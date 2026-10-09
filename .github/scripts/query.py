@@ -90,7 +90,7 @@ def fenced(body, lang=""):
 def run(query):
     first_word = query.split(None, 1)[0].upper() if query else ""
     if first_word in NOPE:
-        return "ERROR 1142 (42000): nice try. this database is read-only 🙂"
+        return "ERROR 1142 (42000): nice try. this database is read-only."
 
     with tempfile.TemporaryDirectory() as tmp:
         path = os.path.join(tmp, "francisco.db")
@@ -104,7 +104,7 @@ def run(query):
         except sqlite3.DatabaseError as e:
             msg = str(e)
             if "not authorized" in msg or "readonly" in msg:
-                return "ERROR 1142 (42000): nice try. this database is read-only 🙂"
+                return "ERROR 1142 (42000): nice try. this database is read-only."
             if "interrupted" in msg:
                 return f"ERROR 3024 (HY000): query took longer than {TIME_LIMIT:g}s. I respect the ambition."
             if "too big" in msg or "too long" in msg:
