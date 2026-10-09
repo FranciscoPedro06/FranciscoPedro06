@@ -16,9 +16,22 @@
 
 <br/>
 
-<h3 align="center">⟶ Things I've built</h3>
+```sql
+SELECT project, what_it_does
+FROM francisco.things_i_built;
+```
 
-<p align="center">
-  <strong>FastPass</strong> &nbsp;—&nbsp; Tourism with facial recognition. You show up, the camera knows you, you're in.<br/>
-  <strong>EduPass</strong> &nbsp;—&nbsp; Same engine, new job: checking people into events.
-</p>
+```
++----------------------+----------------------------------------------------------+
+| project              | what_it_does                                             |
++----------------------+----------------------------------------------------------+
+| FastPass             | You show up, the camera knows you, you're in.            |
+| Face Recognition API | Never forgets a face. That's literally its only job.     |
+| Smart Cart           | A shopping cart that sees what you drop in it.           |
+| EduPass              | The school bus checks your face, not your excuses.       |
+| Reviva               | Locks your memories until the date you pick. No peeking. |
++----------------------+----------------------------------------------------------+
+5 rows in set (0.01 sec) -- more loading...
+```
+
+<sub>currently: debugging something that worked yesterday</sub>
