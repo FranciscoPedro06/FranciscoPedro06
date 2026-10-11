@@ -52,7 +52,7 @@ CREATE TABLE facts (
 
 INSERT INTO facts VALUES
   ('role',           'Data Analyst x Full-Stack Developer'),
-  ('currently',      'fix: check that stdin can be half-closed before writing any of it'),
+  ('currently',      'Removendo pequenos erros na aplication'),
   ('this_database',  'is real. you just queried it.'),
   ('write_access',   'denied. nice try though.'),
   ('favorite_query', 'SELECT * FROM francisco.projects');
