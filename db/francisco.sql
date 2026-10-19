@@ -52,7 +52,7 @@ CREATE TABLE facts (
 
 INSERT INTO facts VALUES
   ('role',           'Data Analyst x Full-Stack Developer'),
-  ('currently',      'docs: document how tabs follow a change of session'),
+  ('currently',      'docs: document reset and mission switch'),
   ('this_database',  'is real. you just queried it.'),
   ('write_access',   'denied. nice try though.'),
   ('favorite_query', 'SELECT * FROM francisco.projects');
