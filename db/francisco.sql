@@ -52,7 +52,7 @@ CREATE TABLE facts (
 
 INSERT INTO facts VALUES
   ('role',           'Data Analyst x Full-Stack Developer'),
-  ('currently',      'feat: foto do Francisco no hero e no painel Perfil'),
+  ('currently',      'test: type after the prompt that follows Ctrl+C in the history test'),
   ('this_database',  'is real. you just queried it.'),
   ('write_access',   'denied. nice try though.'),
   ('favorite_query', 'SELECT * FROM francisco.projects');
