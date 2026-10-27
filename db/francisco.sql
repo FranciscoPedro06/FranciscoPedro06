@@ -52,7 +52,7 @@ CREATE TABLE facts (
 
 INSERT INTO facts VALUES
   ('role',           'Data Analyst x Full-Stack Developer'),
-  ('currently',      'e2e: wait for the API to be healthy again after its restart'),
+  ('currently',      'e2e: check check-labs.sh and the reaper apart, without a race'),
   ('this_database',  'is real. you just queried it.'),
   ('write_access',   'denied. nice try though.'),
   ('favorite_query', 'SELECT * FROM francisco.projects');
